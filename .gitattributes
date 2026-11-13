@@ -1,0 +1,19 @@
+# Normalise line endings so that the repository behaves the same on Windows,
+# macOS and Linux.
+* text=auto eol=lf
+
+*.R        text eol=lf
+*.Rmd      text eol=lf
+*.md       text eol=lf
+*.cff      text eol=lf
+*.txt      text eol=lf
+*.tsv      text eol=lf
+*.csv      text eol=lf
+
+# keep structures and binary tables untouched
+*.pdb      -text
+*.mol2     -text
+*.sdf      -text
+*.cys      -text
+*.xls      -text
+*.xlsx     -text

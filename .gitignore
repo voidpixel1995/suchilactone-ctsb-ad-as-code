@@ -1,0 +1,20 @@
+# Working directory created by 00_config.R
+work/
+results/
+data/download/
+
+# R session artefacts
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj.user
+Rplots.pdf
+Rplots*.pdf
+
+# Written by install_packages.R
+package_versions.txt
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+desktop.ini
